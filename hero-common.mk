@@ -101,3 +101,7 @@ PRODUCT_PACKAGES += \
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/hero-common/hero-common-vendor.mk)
 $(call inherit-product, vendor/samsung/bsp/bsp-common-vendor.mk)
+
+# Maintainer ViperOS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.viper.maintainer=Luke Williams
