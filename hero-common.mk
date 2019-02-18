@@ -104,4 +104,4 @@ $(call inherit-product, vendor/samsung/bsp/bsp-common-vendor.mk)
 
 # Maintainer ViperOS
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.viper.maintainer=Luke Williams
+    ro.viper.maintainer=Luke
