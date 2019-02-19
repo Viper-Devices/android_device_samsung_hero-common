@@ -105,3 +105,6 @@ $(call inherit-product, vendor/samsung/bsp/bsp-common-vendor.mk)
 # Maintainer ViperOS
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.viper.maintainer=Luke
+
+# Its Official ViperOS
+VIPER_BUILD_TYPE := OFFICIAL
