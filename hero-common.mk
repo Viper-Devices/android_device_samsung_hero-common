@@ -102,9 +102,5 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/samsung/hero-common/hero-common-vendor.mk)
 $(call inherit-product, vendor/samsung/bsp/bsp-common-vendor.mk)
 
-# Maintainer ViperOS
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.viper.maintainer=DeveloperLuke
-
 # Its Official ViperOS
 VIPER_BUILD_TYPE := OFFICIAL
