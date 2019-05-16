@@ -100,7 +100,7 @@ PRODUCT_PACKAGES += \
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/hero-common/hero-common-vendor.mk)
-$(call inherit-product, vendor/samsung/bsp/bsp-common-vendor.mk)
+$(call inherit-product, vendor/seal/seal/seal-common-vendor.mk)
 
 # Its Official ViperOS
 VIPER_BUILD_TYPE := OFFICIAL
